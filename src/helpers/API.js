@@ -6,6 +6,6 @@ export const getRandomActivity = async () => {
 }
 
 export const getActivityByType = async (type) => {
-  const { data } = await axios.get(`http://www.boredapi.com/api/activity?type=${type}/`)
+  const { data } = await axios.get(`http://www.boredapi.com/api/activity?type=${type}`)
   return data
 }
